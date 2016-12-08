@@ -1,0 +1,129 @@
+/* This stylesheet defines the styles of all elements in the graph */
+/* Author: Xavier Wu*/
+
+graph {
+    fill-color: #e6e6e6;
+    padding: 10px; 
+    
+}
+
+node { fill-color: #E59D77;
+       size: 12px,12px;
+       text-visibility-mode: hidden;
+} 
+
+node#Trump { size: 55px;
+                 text-size: 13;
+                 text-style: bold;
+                 text-alignment: center;
+                 shape: rounded-box; 
+                 fill-color: #95C2DC;
+                 text-visibility-mode: normal;
+} 
+
+node#Hilary { size: 55px; 
+                  text-size: 13;
+                  text-style: bold;
+                  text-alignment: center;
+                  shape: rounded-box; 
+                  fill-color: #79C7CC;
+                  text-visibility-mode: normal;
+} 
+
+node#Joy1 { size: 33px;
+            stroke-width: 6px; 
+            text-alignment: under;
+            /* fill-color: #FF8B2B; */
+            fill-mode: image-scaled; 
+            fill-image: url('https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/joy.png');
+}
+
+node#Joy2 { size: 35px; 
+            stroke-width: 6px; 
+            text-alignment: under;
+            fill-mode: image-scaled; 
+            fill-image: url('https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/joy.png');
+} 
+
+node#Sadness1 { size: 35px; 
+                stroke-width: 6px; 
+                text-alignment: under;
+                fill-color: #8EA9C4;
+                fill-mode: image-scaled; 
+                fill-image: url('https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/sad.png');
+} 
+
+node#Sadness2 { size: 35px; 
+                stroke-width: 6px; 
+                text-alignment: under;
+                fill-color: #8EA9C4;
+                fill-mode: image-scaled; 
+                fill-image: url('https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/sad.png');
+} 
+
+node#Anger1 { size: 35px; 
+              stroke-width: 6px; 
+              text-alignment: under;
+              fill-color: #DC0530;
+              fill-mode: image-scaled; 
+              fill-image: url('https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/anger.png');
+} 
+
+node#Anger2 { size: 35px;  
+              stroke-width: 6px; 
+              text-alignment: under;
+              fill-color: #DC0530;
+              fill-mode: image-scaled; 
+              fill-image: url('https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/anger.png');
+} 
+
+node#Disgust1 { size: 35px; 
+                stroke-width: 6px; 
+                text-alignment: under;
+                fill-color: #D3C314;
+                fill-mode: image-scaled; 
+                fill-image: url('https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/disgust.png');
+} 
+
+node#Disgust2 { size: 35px; 
+                stroke-width: 6px; 
+                text-alignment: under;
+                fill-color: #D3C314;
+                fill-mode: image-scaled; 
+                fill-image: url('https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/disgust.png');
+} 
+
+node#xFear1{ size: 35px; 
+             stroke-width: 6px; 
+             text-alignment: under;
+             fill-color: #9B84F8;
+             fill-mode: image-scaled; 
+             fill-image: url('https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/fear.png');
+
+}
+node#xFear2 { size: 35px;
+              stroke-width: 6px;
+              text-alignment: under;
+              fill-color: #9B84F8;
+              fill-mode: image-scaled; 
+              fill-image: url('https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/fear.png');
+} 
+
+node:clicked {
+    text-visibility-mode: normal;
+    text-size: 15;
+    fill-color: red;
+    text-alignment: under;
+}
+
+edge { size: 0.5px; fill-color:#a6a6a6;}
+edge#joy1 { shape: blob; size: 1px; fill-color:#a6a6a6;}
+edge#joy2 { shape: blob; size: 1px; fill-color:#a6a6a6;}
+edge#sadness1 { shape: blob; size: 1px; fill-color:#a6a6a6;}
+edge#sadness2 { shape: blob; size: 1px; fill-color:#a6a6a6;}
+edge#anger1 { shape: blob; size: 1px; fill-color:#a6a6a6;}
+edge#anger2 { shape: blob; size: 1px; fill-color:#a6a6a6;}
+edge#disgust1 { shape: blob; size: 1px; fill-color:#a6a6a6;}
+edge#disgust2 { shape: blob; size: 1px; fill-color:#a6a6a6;}
+edge#xfear1 { shape: blob; size: 1px; fill-color:#a6a6a6;}
+edge#xfear2{ shape: blob; size: 1px; fill-color:#a6a6a6;}
