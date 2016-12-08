@@ -146,10 +146,10 @@ public class TwitterVis {
     public TwitterVis() {
         graph = new SingleGraph("Twitter Visualization");
         
-        //System.setProperty("http.agent", "Chrome");
-        //graph.addAttribute("ui.stylesheet", "url('http://box.xavierwu.com/stylesheet.css')");
+        System.setProperty("http.agent", "Chrome");
+        graph.addAttribute("ui.stylesheet", "url('https://raw.githubusercontent.com/xavierwu2016/plexus/master/src/twittervis/stylesheet.css')");
         // the stylesheet can also be local, shown as below
-        graph.addAttribute("ui.stylesheet", "url('file:///Users/xavier/NetBeansProjects/TwitterVis/src/twittervis/stylesheet.css')");
+        // graph.addAttribute("ui.stylesheet", "url('file:///Users/Xavier/NetBeansProjects/TwitterVis/src/twittervis/stylesheet.css')");
         graph.setAutoCreate(true);
         graph.setStrict(false);
         graph.display();
