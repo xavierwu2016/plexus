@@ -1,6 +1,9 @@
 # Plexus
 _Plexus_ - Interactive Emotion Visualization based on Social Media
 
+![iphoneVSsamsung](https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/ImagesFromPublication/iphoneVSsamsung.png)
+
+
 ### Modules
 
 _Plexus_ is essentially written with three main modules to produce a complete visualization.
@@ -60,6 +63,15 @@ program is modeling and visualizing data. 
 
 ### Software DesignJava, the programming language used for this visualization tool, is an objective-oriented language. The software design was expected to accomplish a high cohesion and low coupling among the fundamental modules of Plexus. Three classes were created to perform the visualization tasks, along with two other property files.#### 1.	TwitterVis_TwitterVis_ is the main class in this software package. The keywords in the Twitter API search query are defined in this class. _TwitterVis_ retrieves the data according to the given keywords and pass them to the _GetEmotion_ class for emotion analysis.#### 2.	GetEmotion_GetEmotion_ submits streamed tweets to the AlchemyAPI service and utilizes a HashMap function to find the emotion mode with the largest relevance value. #### 3.	Greetings_Greetings_ provides a simple GUI for users to input two related topics that they are interested in learning through this visualization. The visualization module will initiate after users hit the “submit” button.####  4. TwitterDevApiKey_TwitterDevApiKey_ stores all the credential information, i.e. API tokens and keys, in the program. The reason for this design is that putting all keys in the same location makes it convenient to organize and update the license information in this package.#### 5. Stylesheet (CSS)The stylesheet file was created to establish a styling framework for this visualization. All elements’ properties are defined here. Separate styles for users’ actions, such like clicking a node, can also be declared here. The entire stylesheet was written in CSS so that styles of HTML elements can be directly adapted into _Plexus_, a Java program.
 ### Visualization DesignA basic goal of visualizing information is to tell a story or solve a problem. To create an effective visualization, several factors such as spatial position need to be considered. Plexus provides a simple 2D model to have the visualization results presented as a force-directed network graph, in which two clusters are embedded. From the perspective of visualization, force-directed algorithms create graphs that are aesthetically engaging [2] and interactively intriguing. Since the goal of this visualization design is to create a social media data visualization for users without much prior experience or knowledge in this field, 
+
+Vancouver vs.  Los Angeles
+![vancouver](https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/ImagesFromPublication/vanVSla.png)
+
+Redesigned Emoji icons:
+![emoji](https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/ImagesFromPublication/emoji.png)
+
+Hilary vs. Trump Visualization with the new design:
+![hilaryVStrump](https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/ImagesFromPublication/hilaryVStrump.png)
 
 ### References
 1. P. N. Johnson-laird and Keith Oatley. 1989. The language of emotions: An analysis of a semantic field. Cognition & Emotion 3, 2: 81–123.
