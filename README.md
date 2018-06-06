@@ -3,6 +3,7 @@ _Plexus_ - An Interactive Visualization Tool for Discovering Trends in Public Em
 
 ## Designed & Developed by Xavier Wu
 
+[Download the paper](https://arxiv.org/ftp/arxiv/papers/1701/1701.06270.pdf)
 
 ![iphoneVSsamsung](https://raw.githubusercontent.com/xavierwu2016/plexus/master/style/ImagesFromPublication/iphoneVSsamsung.png)
 
